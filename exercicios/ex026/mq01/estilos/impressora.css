@@ -1,4 +1,5 @@
 @charset "UTF-8";
+
 /* Estilos para impressoras */
 
 * {
@@ -14,4 +15,12 @@ html {
 
 menu {
     display: none;
+}
+
+article {
+    width: 100%;
+}
+
+article::after {
+    content: "Esse artigo foi impresso através do site www.cursoemvideo.com/noticia";
 }

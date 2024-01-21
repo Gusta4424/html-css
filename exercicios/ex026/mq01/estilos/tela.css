@@ -1,4 +1,5 @@
 @charset "UTF-8";
+
 /* Estilo para telas */
 
 * {
@@ -12,7 +13,7 @@ body {
 }
 
 header {
-    background-color: rgb(174, 174, 174);
+    background-color: rgb(158,158,158);
 }
 
 header > h1 {
@@ -20,5 +21,30 @@ header > h1 {
 }
 
 menu > ul {
-   
+   list-style-type: none;
+   background-color: gray;
 }
+
+menu li {
+    background-color: rgb(75, 75, 75);
+    color: white;
+    border-radius: 5px;
+    display: inline-block;
+    padding: 5px;    
+}
+
+article {
+    width: 600px;
+    display: block;
+    margin: auto;
+    background-color: silver;
+    padding: 10px;
+    text-indent: 30px;
+    line-height: 1.5em;
+}
+
+article > h2 {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
